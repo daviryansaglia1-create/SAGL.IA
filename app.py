@@ -12,7 +12,7 @@ st.set_page_config(
 st.title("SAGL.IA")
 st.markdown("Chat com IA Generativa")
 
-api_key = st.secrets.get("GEMINI_API_KEY", "AIzaSyAt4YLQFY8bTmpZmelRntScv7OxmgdHQ5I")
+api_key = st.secrets.get("GEMINI_API_KEY", "AIzaSyCNyX19b3YL7zdez-GUkpmPb4HkAS2_Sxs")
 
 if not api_key:
     st.error("⚠️ Chave API não encontrada!")
